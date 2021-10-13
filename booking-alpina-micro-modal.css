@@ -82,6 +82,10 @@
     transition: transform .25s ease-out;
     transition: transform .25s ease-out,-webkit-transform .25s ease-out;
   }
+
+.alpina-modal__btn span {
+  pointer-events: none;
+}
   
   .alpina-modal__btn:focus, .alpina-modal__btn:hover {
     -webkit-transform: scale(1.05);
