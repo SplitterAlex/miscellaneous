@@ -148,7 +148,10 @@
   }
 
 
-html[lang="en"] .alpina-modal .en,
+html[lang="en"] .alpina-modal .en {
+  display: none;
+}
+
 html[lang="de"] .alpina-modal .de {
   display: none;
 }
