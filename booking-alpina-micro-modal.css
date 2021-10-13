@@ -2,10 +2,6 @@
   Basic Alpina Modal Styles Begin
 \***********************************************/
 
-.alpin-modal {
-    /* font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif; */
-  }
-  
   .alpina-modal__overlay {
     z-index: 99;
     position: fixed;
@@ -150,6 +146,20 @@
   .micromodal-slide .alpina-modal__overlay {
     will-change: transform;
   }
+
+
+html[lang="en"] .alpina-modal .en,
+html[lang="de"] .alpina-modal .de {
+  display: none;
+}
+
+html[lang="en"] .alpina-modal .en {
+  display: block !important;
+}
+
+html[lang="de"] .alpina-modal .de {
+  display: block !important;
+}
 
   /******************************************\
   Basic Alpina Modal Styles END
