@@ -157,11 +157,11 @@ html[lang="de"] .alpina-modal .de {
 }
 
 html[lang="en"] .alpina-modal .en {
-  display: block !important;
+  display: block;
 }
 
 html[lang="de"] .alpina-modal .de {
-  display: block !important;
+  display: block;
 }
 
   /******************************************\
