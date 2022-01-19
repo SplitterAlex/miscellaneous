@@ -160,11 +160,11 @@
   display: none;
 }
 
-html[lang="en"] .alpina-modal .en {
+html[locale="en"] .alpina-modal .en {
   display: block;
 }
 
-html[lang="de"] .alpina-modal .de {
+html[locale="de"] .alpina-modal .de {
   display: block;
 }
 
